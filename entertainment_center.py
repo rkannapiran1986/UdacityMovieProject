@@ -3,11 +3,11 @@ import fresh_tomatoes
 
 
 # Here is the list of movies describe the instance of Movie and TvShow Classes
-avatar = media.Movie('Avatar',
-                     'new movie',
-                     'https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg',
-                     'https://www.youtube.com/watch?v=5PSNL1qE6VY',
-                     '2h 42m')
+avatar = media.Movie("Avatar",
+                     "new movie",
+                     """https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg""",
+                     "https://www.youtube.com/watch?v=5PSNL1qE6VY",
+                     "2h 42m")
 
 ironMan = media.Movie('Iron Man 3',
                       'new movie for iron man',
