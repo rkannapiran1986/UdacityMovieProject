@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+
+# Here is the list of movies describe the instance of Movie and TvShow Classes
 avatar = media.Movie('Avatar',
                      'new movie',
                      'https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg',
@@ -37,7 +39,12 @@ big_bang_theory = media.TvShow('The Big Bang Theory',
                                'https://www.youtube.com/watch?v=WBb3fojgW0Q',
                                'September 19, 2016 - May 11, 2017')
 
-movies = [avatar, ironMan, antMan, spiderMan, threeIdiots, big_bang_theory]
+movies = [avatar,
+          ironMan,
+          antMan,
+          spiderMan,
+          threeIdiots,
+          big_bang_theory]
+
 
 fresh_tomatoes.open_movies_page(movies)
-
